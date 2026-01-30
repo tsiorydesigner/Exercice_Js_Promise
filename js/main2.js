@@ -154,6 +154,7 @@
                     log(`❌ Erreur dans la chaîne: ${error.message}`, 'error');
                 });
                 
+                
         }
 
         // Fonction pour effacer les logs

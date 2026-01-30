@@ -29,6 +29,7 @@
      e.preventDefault();
      alert('Merci pour votre message! Nous vous contacterons bientôt.');
      e.target.reset();
+    
  });
 
 
