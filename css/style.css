@@ -163,7 +163,8 @@ nav {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #16213e;
+    color: #444444;
+    margin-top: -24px;
 }
 
 .specs-grid {

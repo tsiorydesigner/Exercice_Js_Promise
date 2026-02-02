@@ -123,6 +123,7 @@
                     }, 1000);
                 });
             };
+            
 
             const step3 = (data) => {
                 return new Promise((resolve, reject) => {
@@ -140,15 +141,15 @@
 
             step1()
                 .then(result1 => {
-                    log(`✅ Étape 1 terminée`, 'success');
+                    log(`✅ Étape 1 terminée`, 'bien reçu');
                     return step2(result1);
                 })
                 .then(result2 => {
-                    log(`✅ Étape 2 terminée`, 'success');
+                    log(`✅ Étape 2 terminée`, 'bien reçu');
                     return step3(result2);
                 })
                 .then(finalResult => {
-                    log(`🎉 CHAÎNE COMPLÈTE: ${finalResult}`, 'success');
+                    log(`🎉 CHAÎNE COMPLÈTE: ${finalResult}`, 'bien reçu');
                 })
                 .catch(error => {
                     log(`❌ Erreur dans la chaîne: ${error.message}`, 'error');
